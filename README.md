@@ -39,7 +39,7 @@ do
     fi
 done
 ```
-Even and Odd Numbers
+## Even and Odd Numbers
 This script prints all even and odd numbers between ranges (e.g., 1 to 100).
 
 ### Code:
@@ -65,7 +65,7 @@ do
     fi
 done
 ```
-Fibonacci Series
+## Fibonacci Series
 This script prints the Fibonacci series up to a given number of terms (e.g., 10 terms).
 
 ### Code:
@@ -90,7 +90,7 @@ done
 
 echo
 ```
-Multiplication Table
+## Multiplication Table
 This script prints the multiplication table for a given number (e.g., 5).
 ### Code:
 
@@ -106,7 +106,7 @@ do
     echo "$num x $i = $((num * i))"
 done
 ```
-Less Than / Greater Than
+## Less Than / Greater Than
 This script checks if a number is greater than, less than, or equal to a given value (e.g., 50).
 ### Code:
 
@@ -126,7 +126,7 @@ else
     echo "$num is equal to $threshold"
 fi
 ```
-How to Run the Scripts
+## How to Run the Scripts
 Clone this repository:
 ### Code:
 
@@ -144,8 +144,8 @@ Run the script:
 ### Code:
 
 ```bash
-./script-name.sh
+./anybovecode.sh
 ```
-For any Query DM me at: maryammairaj53@gmail.com 
+## For any Query DM me at: maryammairaj53@gmail.com 
 
 
