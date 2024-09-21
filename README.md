@@ -1,6 +1,6 @@
 # Bash Scripting Programs
 
-This repository contains Bash scripts to perform various tasks such as printing prime numbers, even/odd numbers, generating the Fibonacci series, printing multiplication tables, and checking if numbers are greater than or less than a given value.
+This repository contains Bash scripts to perform various tasks such as printing prime numbers, and even/odd numbers, generating the Fibonacci series, printing multiplication tables, and checking if numbers are greater than or less than a given value.
 
 ## Table of Contents
 
@@ -38,12 +38,13 @@ do
         echo "$num is a prime number"
     fi
 done
+```
 Even and Odd Numbers
-This script prints all even and odd numbers between a given range (e.g., 1 to 100).
+This script prints all even and odd numbers between ranges (e.g., 1 to 100).
 
-Code:
-bash
-Copy code
+### Code:
+
+```bash
 #!/bin/bash
 
 echo "Even numbers between 1 and 100:"
@@ -63,12 +64,13 @@ do
         echo "$num"
     fi
 done
+```
 Fibonacci Series
 This script prints the Fibonacci series up to a given number of terms (e.g., 10 terms).
 
-Code:
-bash
-Copy code
+### Code:
+
+```bash
 #!/bin/bash
 
 n=10 # Number of terms
@@ -87,12 +89,12 @@ do
 done
 
 echo
+```
 Multiplication Table
 This script prints the multiplication table for a given number (e.g., 5).
+### Code:
 
-Code:
-bash
-Copy code
+```bash
 #!/bin/bash
 
 num=5 # Number to print the multiplication table for
@@ -103,12 +105,12 @@ for ((i=1; i<=10; i++))
 do
     echo "$num x $i = $((num * i))"
 done
+```
 Less Than / Greater Than
 This script checks if a number is greater than, less than, or equal to a given value (e.g., 50).
+### Code:
 
-Code:
-bash
-Copy code
+```bash
 #!/bin/bash
 
 read -p "Enter a number: " num
@@ -123,20 +125,27 @@ then
 else
     echo "$num is equal to $threshold"
 fi
+```
 How to Run the Scripts
 Clone this repository:
+### Code:
 
-bash
-Copy code
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-Make any script executable:
+```bash
+git clone https://github.com/MaryamMairaj123/Shell-Scripting/.git
+cd Shell-Scripting
+```
+Give Permission to script executable: 
+### Code:
 
-bash
-Copy code
-chmod +x script-name.sh
+```bash
+chmod 777 anybovecode.sh
+```
 Run the script:
+### Code:
 
-bash
-Copy code
+```bash
 ./script-name.sh
+```
+For any Query DM me at: maryammairaj53@gmail.com 
+
+
